@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="img/icon.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Login</title>
+</head>
+<body class="img-background" style="background-image: url('img/ayuda.jpg');">
+    <div class="stickyBienvenida">
+        <label>Login</label>
+    </div>
+    <div class="container mitad">
+        <img src="img/icon.png" class="img-center" style="width: 40%; background: cornsilk; border-radius: 30px">
+        <form action="acceso-usuario.php" method="POST">
+
+            <div class="form-group">
+                <label for="correo">Correo electronico</label>
+                <input type="email" name="correo" class="form-control" aria-describedby="emailHelp" placeholder="Correo" required>
+            </div>
+        
+            <div class="form-group">
+                <label for="contrasena">Contraseña</label>
+                <input type="password" name="contrasena" class="form-control" id="exampleInputPassword1" placeholder="Contraseña" required>
+            </div>
+            
+            <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
+            <a href="index.html" class="btn btn-secudnary">Volver al inicio</a> 
+        </form>
+    </div>
+</body>
+</html>

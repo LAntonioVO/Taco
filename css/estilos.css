@@ -1,0 +1,90 @@
+body{
+    background-color:white;
+}
+
+
+/*Div principal arriba
+ ---------------------------------------
+*/
+.stickyBienvenida {
+  position: sticky;
+  text-align: center;
+  background: rgb(251, 148, 11);
+  color: white; 
+  font-size: 30px;
+}
+
+.stickyBienvenida label{
+  font-size:30px;
+}
+
+
+.btn-primary{
+  background-color:rgb(255, 135, 12);
+  border-color: rgb(255, 255, 255);
+}
+
+.btn-primary:hover{
+  background-color:rgb(212, 125, 3);
+  border-color: rgb(255, 255, 255); 
+}
+.btn-primary:active{
+  background-color:rgb(245, 145, 5) !important;
+  lighting-color: blueviolet;
+}
+
+#boton-registro{
+  margin-left: 10px;
+  margin-right: 10px;
+  float: right; 
+}
+
+#boton-login{
+  float: right;
+}
+
+#boton-salir{
+  float: right;
+  margin-right: 10px;
+}
+
+.mitad{
+  width: 40%;
+  background-color: white;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+
+.mostrar{
+    width: 385px;
+    height: 100px;
+    font-size: 50px;
+}
+
+
+.img-center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-background{
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.aviso-control{
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+
+.blog-footer{
+  padding: 1.5rem 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: .05rem solid #e5e5e5;
+  margin-top: 15px;
+}

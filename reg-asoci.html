@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="img/icon.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Registro Asociación</title>
+</head>
+<body class="img-background" style="background-image: url('img/donar.jpg');">
+    <div class="stickyBienvenida">
+        <label>Registro de asociación</label>
+    </div>
+    <div class="container mitad">
+        
+        <form action="reg-asociacion.php" method="POST">
+            <div class="form-group">
+                <label for="nombreasociacion">Nombre de la asociación</label>
+                <input type="text" name="nombreasociacion" class="form-control" placeholder="Asociación" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="informacion">Informacion sobre su asociación (ubicación, razon social, etc)</label>
+                <textarea type="text" name="informacion" style="height: 100px;"class="form-control" placeholder="Asociación encargada de.." required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="correo">Correo electronico de contacto</label>
+                <input type="email" name="correo" class="form-control" aria-describedby="emailHelp" placeholder="Correo" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="contrasena">Contraseña</label>
+                <input type="text" name="contrasena" class="form-control" id="exampleInputPassword1" placeholder="Contraseña" required>
+            </div>      
+            <button type="submit" class="btn btn-primary">Registrarse</button>
+            <a href="registro.html" class="btn btn-secudnary">Volver</a> 
+        </form>
+    </div>
+</body>
+</html>

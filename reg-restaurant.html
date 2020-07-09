@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="img/icon.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Registro Restaurante</title>
+</head>
+<body style="background-image: url('img/restaurant.jpg');">
+    <div class="stickyBienvenida">
+        <label>Registro de restaurante</label>
+    </div>
+    <div class="container mitad">
+
+        <form action="reg-restaurant.php" method="POST">
+            <div class="form-group">
+                <label for="nombrerestaurante">Nombre del restaurante</label>
+                <input type="text" name="nombrerestaurante" class="form-control" placeholder="Restaurante" required>
+            </div>
+            <div class="form-group">
+                <label for="personaencargada">Dueño o encargado</label>
+                <input type="text" name="personaencargada" class="form-control" placeholder="Dueño" required>
+            </div>
+            <div class="form-group">
+                <label for="direccion">Dirección del establecimiento</label>
+                <input type="text" name="direccion" class="form-control" placeholder="Dirección" required>
+            </div>
+            <div class="form-group">
+                <label for="correo">Correo Electronico</label>
+                <input type="email" name="correo" class="form-control" aria-describedby="emailHelp" placeholder="Correo" required>
+            </div>
+            <div class="form-group">
+                <label for="contrasena">Contraseña</label>
+                <input type="password" name="contrasena" class="form-control" id="exampleInputPassword1" placeholder="Contraseña" required>
+            </div>
+        
+            <button type="submit" name="enviar" class="btn btn-primary">Registrarse</button>
+            <a href="registro.html" class="btn btn-secudnary">Volver</a>
+        </form>
+
+    </div>
+</body>
+</html>
